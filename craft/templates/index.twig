@@ -1,0 +1,8 @@
+<p>Is it happy hour?</p>
+
+{% set hour = now|date("G") %}
+{% if hour >= 16 and hour < 18 %}
+    <p>Yes!</p>
+{% else %}
+    <p>Nope.</p>
+{% endif %}
