@@ -1,3 +1,4 @@
+# Craft beta 3.2
 ## Clone repo and run
 ```
 git clone git@github.com:kevinbpalmer/docker-craft-cms-dev.git
